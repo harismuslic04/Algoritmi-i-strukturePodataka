@@ -146,6 +146,25 @@ void niz(){
     }
 
 }
+void sortiraj(int num_of_nodes){
+  
+    printf("\n");
+    int br1,pom,br2;
+    for(int br1=num_of_nodes-2;br1>=0;br1--){
+        
+        curr=first;
+        next=first->next;
+        for(int br2=0;br2<=br1;br2++){
+            if(curr->data>next->data){
+                pom=next->data;
+                next->data=curr->data;
+                curr->data=pom;
+            }
+            curr=next;
+            next=next->next;
+        }
+    }
+}
 int main()
 {
     int ukupno;

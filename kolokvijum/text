@@ -1,0 +1,3 @@
+u programskom jeziku c napisati program u kome se pomocu odgovarajucih funkcija vrsi inicijalizacija,dodavanje elemenata u dvostruku ulancanu listu i njihov prikaz.Elementi su tipa int.Kreirati funkciju za nalazenje srednje vrednosti takve liste i elementa el na toj listi.Demonstrirati rad programa.
+
+Implementirati red preko niza duzine 15,u koji se upisuju i brisu po dva elementa istovremeno.Dodati funkciju koja brise element sa zadate pozicije ako postoji,a odgovarajuce ostale premesta za po jedno mesto.U glavnom programu prikazati rad.
